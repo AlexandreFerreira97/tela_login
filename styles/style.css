@@ -37,7 +37,7 @@ body{
 
 .container__input__in{
     width: 100%;
-    height: 100%;
+    height: 50px;
     background: transparent;
     border: none;
     outline: none;
@@ -56,5 +56,47 @@ body{
     position: absolute;
     right: 2%;
     top: 5%;
-    margin-top: 0.75%;
+    margin-top: 4%;
+}
+
+.container__ancora{
+    font-size: 16px;
+    margin-top: 5px;
+    text-decoration: none;
+    color: #F6F6F6;
+
+}
+
+.container__ancora:hover{
+    color: #e5ebbc;
+}
+
+.container__button{
+    width: 100%;
+    height: 50px;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-top:1%;
+    cursor: pointer;
+}
+
+.container__button:hover{
+    background-color: #e5ebbc;
+}
+
+.container__register p a{
+    font-size: 16px;
+    color: #F6F6F6;
+    text-decoration: none;
+}
+
+.container__register{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.container__register p a:hover{
+    color: #e5ebbc;
 }
