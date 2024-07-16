@@ -86,10 +86,14 @@ body{
     background-color: #e5ebbc;
 }
 
-.container__register p a{
+.container__register p a {
     font-size: 16px;
     color: #F6F6F6;
     text-decoration: none;
+}
+
+.container__p{
+    color: #F6F6F6;
 }
 
 .container__register{
